@@ -241,4 +241,12 @@ code {
     margin-bottom: 3rem;
 }
 
+#mainTitle{
+    background-color: chartreuse;
+    padding: 10px 15px;
+    
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+
 /*博客文本样式*/

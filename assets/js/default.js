@@ -98,7 +98,7 @@ function loadBlogListByURL(url, isSetReplaceState) {
             NProgress.done();
         },
         error: function () {
-            alert("失败，请稍后再试！");
+            alert("Sorry, page could not be found!");
         }
     });
 }
@@ -128,7 +128,7 @@ function loadBlogByURL(url, isSetReplaceState, isChangeScreen) {
             NProgress.done();
         },
         error: function () {
-            alert("失败，请稍后再试！");
+            alert("Sorry, page could not be found!");
         }
     });
 }
