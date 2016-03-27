@@ -243,10 +243,18 @@ code {
 
 #mainTitle{
     background-color: chartreuse;
-    padding: 10px 15px;
-    
+    padding: 10px;
+    margin-bottom: 20px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
-
+#socialMediaIconsContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#socialMediaIcon {
+    padding:1px;
+}
 
 /*博客文本样式*/
